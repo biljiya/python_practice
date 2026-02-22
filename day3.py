@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 # Target URL
-url = 'https://www.onlinekhabar.com''
+url = 'https://www.onlinekhabar.com'
 
 # Fetch the page
 response = requests.get(url)

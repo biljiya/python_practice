@@ -18,6 +18,7 @@ articles_url = []
 
 for each_update in political_articles:
     content = each_update.find('div', class_='ok-post-contents')
+    
     if content:
         a_tag = content.find('h2').find('a')
         if a_tag:
